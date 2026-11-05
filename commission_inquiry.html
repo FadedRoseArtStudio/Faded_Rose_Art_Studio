@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Commission Inquiry | Faded Rose Art Studio</title>
+
+    <link rel="stylesheet"
+          href="media.css"
+          type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- WEBSITE HEADER -->
+        <header>
+            <h1>Faded Rose Art Studio</h1>
+            <h2>Personalized Artwork & Commissions</h2>
+        </header>
+
+        <!-- SIDEBAR NAVIGATION -->
+        <aside>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="artwork.html">My Artwork</a>
+                    </li>
+
+                    <li>
+                        <a href="commissions.html">Commissions</a>
+                    </li>
+
+                    <li>
+                        <a href="classes.html">Art Classes</a>
+                    </li>
+
+                    <li>
+                        <a href="artStylesAndOptions.html">
+                            Art Styles & Options
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="commission_inquiry.html"
+                           aria-current="page">
+                            Commission Inquiry
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main>
+
+            <article>
+
+                <h1>Personalized Commission Inquiry</h1>
+
+                <p>
+                    Welcome to Faded Rose Art Studio!
+                    Have a special artwork idea in mind?
+                    Share your vision with me, and let's
+                    explore creating something beautiful
+                    together.
+                </p>
+
+                <div class="contact-form">
+
+                    <h2>Tell Me About Your Artwork</h2>
+
+                    <form id="commissionForm">
+
+                        <!-- CUSTOMER NAME -->
+                        <div class="inputBox">
+                            <label for="customerName">
+                                Full Name:
+                            </label>
+
+                            <input
+                                type="text"
+                                id="customerName"
+                                name="customerName"
+                                autocomplete="name"
+                                required>
+                        </div>
+
+                        <!-- CUSTOMER EMAIL -->
+                        <div class="inputBox">
+                            <label for="customerEmail">
+                                Email Address:
+                            </label>
+
+                            <input
+                                type="email"
+                                id="customerEmail"
+                                name="customerEmail"
+                                autocomplete="email"
+                                required>
+                        </div>
+
+                        <!-- ARTWORK TYPE -->
+                        <div class="inputBox">
+                            <label for="artworkType">
+                                Type of Artwork:
+                            </label>
+
+                            <select
+                                id="artworkType"
+                                name="artworkType"
+                                required>
+
+                                <option value="">
+                                    Select an option
+                                </option>
+
+                                <option value="pet">
+                                    Pet Portrait
+                                </option>
+
+                                <option value="individual">
+                                    Individual Portrait
+                                </option>
+
+                                <option value="family">
+                                    Family or Group Portrait
+                                </option>
+
+                                <option value="other">
+                                    Other Custom Artwork
+                                </option>
+
+                            </select>
+                        </div>
+
+                        <!-- ARTWORK STYLE -->
+                        <div class="inputBox">
+                            <label for="artworkStyle">
+                                Preferred Art Style:
+                            </label>
+
+                            <select
+                                id="artworkStyle"
+                                name="artworkStyle">
+
+                                <option value="unsure">
+                                    Not Sure Yet
+                                </option>
+
+                                <option value="realistic">
+                                    Realistic
+                                </option>
+
+                                <option value="sketch">
+                                    Sketch
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+                        </div>
+
+                        <!-- ARTWORK DESCRIPTION -->
+                        <div class="inputBox">
+                            <label for="artworkDetails">
+                                Describe Your Artwork:
+                            </label>
+
+                            <textarea
+                                id="artworkDetails"
+                                name="artworkDetails"
+                                rows="5"
+                                placeholder="Tell me about your personalized artwork idea..."
+                                required></textarea>
+                        </div>
+
+                        <!-- COMMISSION NOTICE -->
+                        <p>
+                            Submitting an inquiry does
+                            not confirm a commission
+                            or payment. Pricing and
+                            availability will be
+                            discussed with the artist.
+                        </p>
+
+                        <!-- SUBMIT BUTTON -->
+                        <button type="button" disabled>
+                            Submit Commission Inquiry
+                        </button>
+
+                        <!-- STATUS MESSAGE -->
+                        <p id="messageAlert" role="status">
+                            Inquiry submissions are
+                            not available yet. This
+                            form is currently a preview.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </article>
+
+        </main>
+
+        <!-- WEBSITE FOOTER -->
+        <footer>
+            <p>
+                &copy; 2026 Faded Rose Art Studio.
+                All rights reserved.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
