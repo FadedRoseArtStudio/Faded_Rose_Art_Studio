@@ -2,12 +2,16 @@
 document.querySelectorAll("[data-carousel]").forEach((carousel) => {
     const artworks = [
         ["Watercolor Girl.jpeg", "Watercolor Girl"],
+        ["Apple.jpeg", "Apple"],
         ["Baby.jpg", "Baby"],
         ["Belle.jpg", "Belle"],
         ["Bubba.jpg", "Bubba"],
         ["Bunny.jpg", "Bunny"],
+        ["Burger.jpeg", "Burger"],
+        ["Cherry.jpeg", "Cherry"],
         ["Coworker.jpg", "Coworker"],
         ["Cupcake.jpeg", "Cupcake"],
+        ["Donut.jpeg", "Donut"],
         ["Dragon 2.jpg", "Dragon 2"],
         ["Dragon.jpg", "Dragon"],
         ["Elephant.jpg", "Elephant"],
@@ -19,7 +23,8 @@ document.querySelectorAll("[data-carousel]").forEach((carousel) => {
         ["Greek.jpg", "Greek"],
         ["Hatter.jpg", "Hatter"],
         ["Joker.jpg", "Joker"],
-        ["Little lyss.jpg", "Little lyss"],
+        ["Lime-wedge.jpeg", "Lime Wedge"],
+        ["Little Lyss.jpg", "Little Lyss"],
         ["Lyss.jpg", "Lyss"],
         ["Marilyn 2.jpeg", "Marilyn 2"],
         ["Marilyn.jpg", "Marilyn"],
@@ -29,9 +34,11 @@ document.querySelectorAll("[data-carousel]").forEach((carousel) => {
         ["Santa.jpg", "Santa"],
         ["Snowman.jpg", "Snowman"],
         ["SpongeBob.jpg", "SpongeBob"],
+        ["Strawberries.jpeg", "Strawberries"],
         ["Windmill.jpg", "Windmill"],
         ["American Psyho.jpeg", "American Psyho"]
     ];
+   
 
     const image = carousel.querySelector("[data-artwork-image]");
     const link = carousel.querySelector("[data-artwork-link]");
