@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Explore portraits, colorful creations, and imaginative artwork by Darlene Viera at Faded Rose Art Studio.">
+    <title>My Artwork | Faded Rose Art Studio</title>
+    <link rel="stylesheet" href="media.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="studio-banner">
+            <img class="studio-banner-image"
+                 src="images/My Business Faded Rose 2.png"
+                 alt="Faded Rose Art Studio — Portraits Made Personal">
+
+            <!-- Bird animation reference:
+            https://codepen.io/matchboxhero/pen/RLebOY -->
+            <div class="bird-container bird-container--one"
+                 aria-hidden="true">
+                <div class="bird bird--one"></div>
+            </div>
+
+            <div class="bird-container bird-container--two"
+                 aria-hidden="true">
+                <div class="bird bird--two"></div>
+            </div>
+
+            <div class="bird-container bird-container--three"
+                 aria-hidden="true">
+                <div class="bird bird--three"></div>
+            </div>
+
+            <div class="bird-container bird-container--four"
+                 aria-hidden="true">
+                <div class="bird bird--four"></div>
+            </div>
+        </header>
+
+        <aside>
+            <h2>Explore the Studio</h2>
+
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="myArtwork.html" aria-current="page">
+                            My Artwork
+                        </a>
+                    </li>
+                    <li><a href="commissions.html">Commissions</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li>
+                        <a href="commission_inquiry.html">Commission Inquiry</a>
+                    </li>
+                    <li>
+                        <a href="artStylesAndOptions.html">
+                            Art Styles &amp; Options
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <article>
+                <h1>My Artwork</h1>
+                <p>
+                    Welcome to my collection of portraits, colorful
+                    creations, and imaginative drawings. From familiar
+                    faces to playful subjects, each piece offers
+                    something different to explore.
+                </p>
+                <p>
+                    Use the arrows or swipe to browse. Select an image
+                    to see it on its own.
+                </p>
+            </article>
+
+            <section class="artwork-carousel"
+                     data-carousel
+                     role="region"
+                     aria-roledescription="carousel"
+                     aria-label="Artwork collection"
+                     tabindex="0">
+
+                <figure class="carousel-figure">
+                    <div class="carousel-stage">
+                        <a href="images/Watercolor Girl.jpeg"
+                           data-artwork-link>
+                            <img src="images/Watercolor Girl.jpeg"
+                                 alt="Watercolor Girl — artwork by Darlene Viera"
+                                 data-artwork-image
+                                 draggable="false">
+                        </a>
+                    </div>
+
+                    <figcaption data-artwork-caption>
+                        Watercolor Girl
+                    </figcaption>
+                </figure>
+
+                <div class="carousel-controls">
+                    <button type="button"
+                            data-previous
+                            aria-label="Previous artwork">
+                        &#8592; Previous
+                    </button>
+
+                    <p data-artwork-status
+                       role="status"
+                       aria-live="polite"
+                       aria-atomic="true">
+                        Artwork 1 of 30
+                    </p>
+
+                    <button type="button"
+                            data-next
+                            aria-label="Next artwork">
+                        Next &#8594;
+                    </button>
+                </div>
+
+                <noscript>
+                    <p>Enable JavaScript to browse the artwork carousel.</p>
+                </noscript>
+            </section>
+
+            <article>
+                <h2>Inspired by Something You See?</h2>
+                <p>
+                    Explore the
+                    <a href="commissions.html">Commissions</a>
+                    page for help planning a personal piece, or visit
+                    <a href="artStylesAndOptions.html">
+                        Art Styles &amp; Options</a>
+                    to explore ideas.
+                </p>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Darlene Viera | Faded Rose Art Studio</p>
+        </footer>
+
+    </div>
+</body>
+</html>
